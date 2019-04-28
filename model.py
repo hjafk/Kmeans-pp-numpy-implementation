@@ -71,7 +71,7 @@ class Kmeans(object):
             for c in range(self.K):
                 distance[:, c] = self.compute_distance(X, self.centroids[c, :])
 
-            min_distance_index = np.argmin(distance, axis=1)  # find the closet centroid's index
+            min_distance_index = np.argmin(distance, axis=1)  # find the closest centroid's index
             if ((min_distance_index != self.idx[:]).any()):   # check if any node change cluster
                 clusterchanged = True
             self.idx[:] = min_distance_index  # updata the distance between every data and centroids.
