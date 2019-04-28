@@ -33,7 +33,7 @@
 
 ## 使用kmeans++作為初始化質心的影響
 ![Alt text](/images/iris_kmenas++.png) ![Alt text](/images/iris_origin.png)
-* 上圖為使用kmeans++ , 下圖為一般Kmeans , 方形點為質心更新過程 , 使用kmeans++初始質心位置較接近最終質心
+* 左圖為使用kmeans++ , 右圖為一般Kmeans , 方形點為質心更新過程 , 使用kmeans++初始質心位置較接近最終質心
 
 ## 使用kmeans++對最終收斂SSE的影響
 ![Alt text](/images/iris_SSE.png) ![Alt text](/images/abalone_SSE.png)
