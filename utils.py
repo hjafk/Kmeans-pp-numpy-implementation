@@ -1,7 +1,6 @@
 from sklearn import datasets
 import numpy as np
 import pandas as pd
-from math import exp
 
 def load_abalone():
 	col_names = ["sex", "length", "diameter", "height", "whole weight",
@@ -15,7 +14,6 @@ def load_abalone():
 	X_abalone = df.values
 	return X_abalone, Y_abalone
 	
-
 def load_iris():
 	iris = datasets.load_iris()
 	X = iris.data
